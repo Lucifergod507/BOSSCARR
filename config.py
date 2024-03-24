@@ -10,8 +10,8 @@ class Config(object):
     pass
     """
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6572682589:AAF5takH59uV7c5PnYjs0BLFwktovJqrxmo")
-    API_ID = int(os.environ["API_ID", "25992046"]
-    API_HASH = os.environ["API_HASH", "6d5400a082dd8fc7989d4a60371934a8"]
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6802499258:AAF_UBWMdU_jZAFFJUQzDeKD7wvdAAV739s")
+    API_ID = int(os.environ["API_ID", "22335135"]
+    API_HASH = os.environ["API_HASH", "4273237df621d621f6caeb9c4a3b5495"]
     
 
