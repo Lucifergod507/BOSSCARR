@@ -89,7 +89,7 @@ async def account_login(bot: Client, m: Message):
     await m.reply_text(soup)
     token=str(input())
     await editable.edit("**login Successful**")
-    await editable.edit(f"You have these Batches :-\n{raw_text}"
+    #await editable.edit(f"You have these Batches :-\n{raw_text}"
     scraper = cloudscraper.create_scraper()
     html1 = scraper.get("https://elearn.crwilladmin.com/api/v5comp/my-batch?&token=" + token).content
     output = json.loads(html1)
