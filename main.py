@@ -27,11 +27,11 @@ load_dotenv()
 os.makedirs("./downloads", exist_ok=True)
 
 
-bot = Client(
-    "bot",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH"))
+bot = Client("bot",
+             bot_token= "6802499258:AAF_UBWMdU_jZAFFJUQzDeKD7wvdAAV739s",
+             api_id= 22335135,
+             api_hash= "4273237df621d621f6caeb9c4a3b5495")
+
 logger = logging.getLogger()
 # thumb = os.environ.get("THUMB")
 # if thumb.startswith("http://") or thumb.startswith("https://"):
